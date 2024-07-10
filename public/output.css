@@ -1165,6 +1165,14 @@ h3 {
     top: 63rem;
   }
 
+  .md\:top-\[-60px\] {
+    top: -60px;
+  }
+
+  .md\:top-\[-3\.75rem\] {
+    top: -3.75rem;
+  }
+
   .md\:z-10 {
     z-index: 10;
   }
