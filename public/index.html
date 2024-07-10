@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Adam Keyes is a front-end developer based in the UK, passionate about building accessible web apps that users love. View his projects and get in touch today."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Single-page developer portfolio</title>
+  </head>
+  <body class="bg-dark min-h-screen overflow-x-hidden">
+    <header
+      class="mt-5 md:mt-7 lg:mt-10 max-w-mdWidth mx-auto px-4 md:px-[1.875rem] relative z-10"
+    >
+      <nav
+        class="flex flex-col md:flex-row md:justify-between items-center gap-5"
+      >
+        <a
+          class="text-white font-grotesk font-bold text-2xl md:text-[2rem] md:leading-[100%] tracking-[-0.333333px] md:tracking-[-0.444444px]"
+          href="#"
+          >adamkeyes</a
+        >
+
+        <ul class="flex items-center gap-6 md:gap-8">
+          <li>
+            <a
+              href="https://github.com/mkboris"
+              aria-label="Visit GitHub profile"
+            >
+              <img
+                class="icons transition-all"
+                src="assets/images/icon-github.svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.frontendmentor.io/profile/mkboris"
+              aria-label="Visit Frontend Mentor profile"
+            >
+              <img
+                class="icons transition-all"
+                src="assets/images/icon-frontend-mentor.svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/makoge-boris-123a91293/"
+              aria-label="Visit LinkedIn profile"
+            >
+              <img
+                class="icons transition-all"
+                src="assets/images/icon-linkedin.svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://x.com/makogeboris"
+              aria-label="Visit Twitter profile"
+            >
+              <img
+                class="icons transition-all"
+                src="assets/images/icon-twitter.svg"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="relative">
+      <img
+        class="absolute z-[-1] top-[8.75rem] left-[-14.25rem] md:top-[1.60rem] md:left-[-17.25rem] lg:top-[4.75rem] lg:left-[-3.25rem]"
+        src="assets/images/pattern-rings.svg"
+        alt=""
+      />
+      <section
+        class="flex flex-col items-center md:items-start md:flex-row gap-10 md:gap-0 mt-[-6rem] md:mt-0 md:mx-auto max-w-mdWidth px-4 md:px-[1.875rem] lg:relative hero"
+      >
+        <picture class="md:absolute top-0 right-0 lg:top-[-4.5rem]">
+          <source
+            media="(min-width: 61.125rem)"
+            srcset="assets/images/image-profile-desktop.webp"
+          />
+          <source
+            media="(min-width: 37.5rem)"
+            srcset="assets/images/image-profile-tablet.webp"
+          />
+          <img
+            src="assets/images/image-profile-mobile.webp"
+            alt=""
+            class="w-[10.875rem] md:w-[20.125rem] lg:w-[27.8125rem]"
+          />
+        </picture>
+
+        <div
+          class="text-center md:text-start md:order-[-1] md:text-balance lg:max-w-[44.125rem] z-20 md:pt-[5.625rem] lg:pt-[7.9375rem]"
+        >
+          <h1
+            class="font-grotesk font-bold text-white text-[2.5rem] md:text-7xl lg:text-[5.5rem] leading-[100%] tracking-[-1.13636px] md:tracking-[-2.04545px] lg:tracking-[-2.5px] mb-6 md:mb-14 lg:mb-9"
+          >
+            Nice to meet you! I'm
+            <span
+              class="underline underline-offset-8 md:underline-offset-[0.875rem] lg:underline-offset-[1.1875rem]"
+              >Adam Keyes</span
+            >.
+          </h1>
+          <p
+            class="font-grotesk font-medium text-base md:text-lg text-grey mb-6 md:mb-8 lg:mb-16 md:max-w-[27.8125rem]"
+          >
+            Based in the UK, I'm a front-end developer passionate about building
+            accessible web apps that users love.
+          </p>
+          <a
+            href="#contact"
+            class="font-grotesk font-bold text-base tracking-[2.28571px] text-white uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+          >
+            Contact me
+          </a>
+        </div>
+      </section>
+
+      <img
+        class="absolute z-[-1] md:z-10 top-[15.75rem] left-[18.25rem] md:top-[29rem] md:left-[28.25rem] lg:top-[26.75rem] lg:left-[47.25rem]"
+        src="assets/images/pattern-circle.svg"
+        alt=""
+      />
+
+      <div class="px-4 md:px-[1.875rem] mb-10 md:mb-[3.25rem] lg:mb-[4.5rem]">
+        <hr
+          class="mt-20 md:mt-[13.75rem] lg:mt-[18.75rem] max-w-mdWidth mx-auto bg-white"
+        />
+      </div>
+
+      <section
+        class="text-center max-w-mdWidth mx-auto px-4 md:px-[1.875rem] md:mb-24 lg:mb-[8.75rem]"
+      >
+        <ul
+          class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-6 md:gap-y-14 lg:gap-x-9"
+        >
+          <li class="flex flex-col text-center md:text-left md:gap-[0.875rem]">
+            <p class="heading">HTML</p>
+            <p class="experience">4 Years Experience</p>
+          </li>
+          <li class="flex flex-col text-center md:text-left md:gap-[0.875rem]">
+            <p class="heading">CSS</p>
+            <p class="experience">4 Years Experience</p>
+          </li>
+          <li class="flex flex-col text-center md:text-left md:gap-[0.875rem]">
+            <p class="heading">JavaScript</p>
+            <p class="experience">4 Years Experience</p>
+          </li>
+          <li class="flex flex-col text-center md:text-left md:gap-[0.875rem]">
+            <p class="heading">Accessibility</p>
+            <p class="experience">4 Years Experience</p>
+          </li>
+          <li class="flex flex-col text-center md:text-left md:gap-[0.875rem]">
+            <p class="heading">React</p>
+            <p class="experience">3 Years Experience</p>
+          </li>
+          <li class="flex flex-col text-center md:text-left md:gap-[0.875rem]">
+            <p class="heading">Sass</p>
+            <p class="experience">3 Years Experience</p>
+          </li>
+        </ul>
+      </section>
+
+      <img
+        class="absolute top-[78.75rem] left-[13.25rem] md:top-[63rem] md:left-[14.25rem] lg:top-[64.75rem] lg:left-[51rem]"
+        src="assets/images/pattern-rings.svg"
+        alt=""
+      />
+
+      <div class="px-4 md:hidden">
+        <hr class="mt-10 mb-20 max-w-mdWidth mx-auto bg-white" />
+      </div>
+
+      <section
+        class="max-w-mdWidth mx-auto px-4 md:px-[1.875rem] mb-20 md:mb-24 lg:mb-[8.6875rem]"
+      >
+        <div class="flex justify-between items-center mb-10 md:mb-14 lg:mb-20">
+          <h2
+            class="font-grotesk font-bold text-white text-[2.5rem] md:text-7xl lg:text-[5.5rem] leading-[100%] tracking-[-1.13636px] md:tracking-[-2.04545px] lg:tracking-[-2.5px]"
+          >
+            Projects
+          </h2>
+          <a
+            href="#contact"
+            class="font-grotesk font-bold text-base tracking-[2.28571px] text-white uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+          >
+            Contact me
+          </a>
+        </div>
+
+        <div
+          class="grid md:grid-cols-2 gap-y-10 md:gap-y-14 lg:gap-y-[4.3125rem] md:gap-x-6 lg:gap-x-[1.875rem]"
+        >
+          <div>
+            <div class="lg:relative lg:cursor-pointer overlay transition-all">
+              <picture>
+                <source
+                  media="(min-width: 37.5rem)"
+                  srcset="assets/images/thumbnail-project-1-large.webp"
+                />
+                <img
+                  src="assets/images/thumbnail-project-1-small.webp"
+                  alt=""
+                />
+              </picture>
+
+              <div
+                class="items-center gap-[1.875rem] hidden lg:flex lg:flex-col absolute left-0 top-0 w-full h-full mix-blend-normal cursor-pointer bg-black justify-center opacity-75 invisible link-wrap transition-all"
+              >
+                <a
+                  href="https://single-page-design-portfolio-sandy.vercel.app/"
+                  target="_blank"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Project</a
+                >
+                <a
+                  href="https://github.com/mkboris/Single-page-design-portfolio"
+                  target="_blank"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Code</a
+                >
+              </div>
+            </div>
+
+            <h3>Design portfolio</h3>
+
+            <div class="flex items-center gap-[1.125rem] mb-5 lg:mb-0">
+              <p class="language">HTML</p>
+              <p class="language">CSS</p>
+            </div>
+
+            <div class="flex items-center gap-[1.875rem] lg:hidden">
+              <a
+                href="https://single-page-design-portfolio-sandy.vercel.app/"
+                target="_blank"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Project</a
+              >
+              <a
+                href="https://github.com/mkboris/Single-page-design-portfolio"
+                target="_blank"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Code</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <div class="lg:relative lg:cursor-pointer overlay transition-all">
+              <picture>
+                <source
+                  media="(min-width: 37.5rem)"
+                  srcset="assets/images/thumbnail-project-2-large.webp"
+                />
+                <img
+                  src="assets/images/thumbnail-project-2-small.webp"
+                  alt=""
+                />
+              </picture>
+
+              <div
+                class="items-center gap-[1.875rem] hidden lg:flex lg:flex-col absolute left-0 top-0 w-full h-full mix-blend-normal cursor-pointer bg-black justify-center opacity-75 invisible link-wrap transition-all"
+              >
+                <a
+                  href="https://skilled-e-learning-landing-page-kappa.vercel.app/"
+                  target="_blank"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Project</a
+                >
+                <a
+                  href="https://github.com/mkboris/Skilled-e-learning-landing-page"
+                  target="_blank"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Code</a
+                >
+              </div>
+            </div>
+
+            <h3>E-learning landing page</h3>
+
+            <div class="flex items-center gap-[1.125rem] mb-5 lg:mb-0">
+              <p class="language">HTML</p>
+              <p class="language">CSS</p>
+            </div>
+
+            <div class="flex items-center gap-[1.875rem] lg:hidden">
+              <a
+                href="https://skilled-e-learning-landing-page-kappa.vercel.app/"
+                target="_blank"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Project</a
+              >
+              <a
+                href="https://github.com/mkboris/Skilled-e-learning-landing-page"
+                target="_blank"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Code</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <div class="lg:relative lg:cursor-pointer overlay transition-all">
+              <picture>
+                <source
+                  media="(min-width: 37.5rem)"
+                  srcset="assets/images/thumbnail-project-3-large.webp"
+                />
+                <img
+                  src="assets/images/thumbnail-project-3-small.webp"
+                  alt=""
+                />
+              </picture>
+
+              <div
+                class="items-center gap-[1.875rem] hidden lg:flex lg:flex-col absolute left-0 top-0 w-full h-full mix-blend-normal cursor-pointer bg-black justify-center opacity-75 invisible link-wrap transition-all"
+              >
+                <a
+                  href="#"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Project</a
+                >
+                <a
+                  href="#"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Code</a
+                >
+              </div>
+            </div>
+
+            <h3>Todo web app</h3>
+
+            <div class="flex items-center gap-[1.125rem] mb-5 lg:mb-0">
+              <p class="language">HTML</p>
+              <p class="language">CSS</p>
+              <p class="language">JavaScript</p>
+            </div>
+
+            <div class="flex items-center gap-[1.875rem] lg:hidden">
+              <a
+                href="#"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Project</a
+              >
+              <a
+                href="#"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Code</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <div class="lg:relative lg:cursor-pointer overlay transition-all">
+              <picture>
+                <source
+                  media="(min-width: 37.5rem)"
+                  srcset="assets/images/thumbnail-project-4-large.webp"
+                />
+                <img
+                  src="assets/images/thumbnail-project-4-small.webp"
+                  alt=""
+                />
+              </picture>
+
+              <div
+                class="items-center gap-[1.875rem] hidden lg:flex lg:flex-col absolute left-0 top-0 w-full h-full mix-blend-normal cursor-pointer bg-black justify-center opacity-75 invisible link-wrap transition-all"
+              >
+                <a
+                  href="#"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Project</a
+                >
+                <a
+                  href="#"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Code</a
+                >
+              </div>
+            </div>
+
+            <h3>Entertainment web app</h3>
+
+            <div class="flex items-center gap-[1.125rem] mb-5 lg:mb-0">
+              <p class="language">HTML</p>
+              <p class="language">CSS</p>
+              <p class="language">JavaScript</p>
+            </div>
+
+            <div class="flex items-center gap-[1.875rem] lg:hidden">
+              <a
+                href="#"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Project</a
+              >
+              <a
+                href="#"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Code</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <div class="lg:relative lg:cursor-pointer overlay transition-all">
+              <picture>
+                <source
+                  media="(min-width: 37.5rem)"
+                  srcset="assets/images/thumbnail-project-5-large.webp"
+                />
+                <img
+                  src="assets/images/thumbnail-project-5-small.webp"
+                  alt=""
+                />
+              </picture>
+
+              <div
+                class="items-center gap-[1.875rem] hidden lg:flex lg:flex-col absolute left-0 top-0 w-full h-full mix-blend-normal cursor-pointer bg-black justify-center opacity-75 invisible link-wrap transition-all"
+              >
+                <a
+                  href="#"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Project</a
+                >
+                <a
+                  href="#"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Code</a
+                >
+              </div>
+            </div>
+
+            <h3>Memory Game</h3>
+
+            <div class="flex items-center gap-[1.125rem] mb-5 lg:mb-0">
+              <p class="language">HTML</p>
+              <p class="language">CSS</p>
+              <p class="language">JavaScript</p>
+            </div>
+
+            <div class="flex items-center gap-[1.875rem] lg:hidden">
+              <a
+                href="#"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Project</a
+              >
+              <a
+                href="#"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Code</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <div class="lg:relative lg:cursor-pointer overlay transition-all">
+              <picture>
+                <source
+                  media="(min-width: 37.5rem)"
+                  srcset="assets/images/thumbnail-project-6-large.webp"
+                />
+                <img
+                  src="assets/images/thumbnail-project-6-small.webp"
+                  alt=""
+                />
+              </picture>
+
+              <div
+                class="items-center gap-[1.875rem] hidden lg:flex lg:flex-col absolute left-0 top-0 w-full h-full mix-blend-normal cursor-pointer bg-black justify-center opacity-75 invisible link-wrap transition-all"
+              >
+                <a
+                  href="#"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Project</a
+                >
+                <a
+                  href="#"
+                  class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                  >View Code</a
+                >
+              </div>
+            </div>
+
+            <h3>Art gallery showcase</h3>
+
+            <div class="flex items-center gap-[1.125rem] mb-5 lg:mb-0">
+              <p class="language">HTML</p>
+              <p class="language">CSS</p>
+              <p class="language">JavaScript</p>
+            </div>
+
+            <div class="flex items-center gap-[1.875rem] lg:hidden">
+              <a
+                href="#"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Project</a
+              >
+              <a
+                href="#"
+                class="links uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-darkGrey relative">
+      <div
+        class="max-w-mdWidth mx-auto px-4 py-[3.75rem] md:pb-10 lg:pt-[5.25rem] lg:pb-[5.75rem] md:px-[1.875rem]"
+      >
+        <div
+          class="flex flex-col items-center lg:justify-between lg:flex-row lg:items-start"
+        >
+          <div
+            class="text-center lg:text-left md:max-w-[27.8125rem] mb-12 lg:mb-0"
+          >
+            <h2
+              id="contact"
+              class="font-grotesk font-bold text-white text-[2.5rem] md:text-7xl lg:text-[5.5rem] leading-[100%] tracking-[-1.13636px] md:tracking-[-2.04545px] lg:tracking-[-2.5px] mb-5 lg:mb-9"
+            >
+              Contact
+            </h2>
+
+            <p class="font-grotesk font-medium text-base md:text-lg text-grey">
+              I would love to hear about your project and how I could help.
+              Please fill in the form, and I’ll get back to you as soon as
+              possible.
+            </p>
+          </div>
+
+          <form
+            id="form"
+            class="flex flex-col gap-8 w-full max-w-[27.8125rem]"
+            action="#"
+          >
+            <input
+              class="bg-darkGrey px-6 pb-4 placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <input
+              class="bg-darkGrey px-6 pb-4 placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+
+            <textarea
+              class="bg-darkGrey px-6 pb-4 resize-none placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-b-[1px] focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green min-h-[6.6875rem]"
+              name="message"
+              id="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button
+              class="font-grotesk font-bold text-base tracking-[2.28571px] text-white uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all self-end"
+              type="submit"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <img
+          class="absolute top-[27.75rem] left-[-12.75rem] md:top-[34rem] md:left-[-15rem] lg:top-[20rem] lg:left-[-2.25rem]"
+          src="assets/images/pattern-rings.svg"
+          alt=""
+        />
+
+        <div
+          class="mt-[5.4375rem] mb-10 md:mt-[5.75rem] md:mb-[1.875rem] lg:mb-12"
+        >
+          <hr
+            class="mt-20 md:mt-[1.25rem] lg:mt-[1.875rem] max-w-mdWidth mx-auto bg-white"
+          />
+        </div>
+
+        <div class="max-w-mdWidth mx-auto">
+          <nav
+            class="flex flex-col md:flex-row md:justify-between items-center gap-5"
+          >
+            <a
+              class="text-white font-grotesk font-bold text-2xl md:text-[2rem] md:leading-[100%] tracking-[-0.333333px] md:tracking-[-0.444444px]"
+              href="#"
+              >adamkeyes</a
+            >
+
+            <ul class="flex items-center gap-6 md:gap-8">
+              <li>
+                <a
+                  href="https://github.com/mkboris"
+                  aria-label="Visit GitHub profile"
+                >
+                  <img
+                    class="icons transition-all"
+                    src="assets/images/icon-github.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.frontendmentor.io/profile/mkboris"
+                  aria-label="Visit Frontend Mentor profile"
+                >
+                  <img
+                    class="icons transition-all"
+                    src="assets/images/icon-frontend-mentor.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/makoge-boris-123a91293/"
+                  aria-label="Visit LinkedIn profile"
+                >
+                  <img
+                    class="icons transition-all"
+                    src="assets/images/icon-linkedin.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com/makogeboris"
+                  aria-label="Visit Twitter profile"
+                >
+                  <img
+                    class="icons transition-all"
+                    src="assets/images/icon-twitter.svg"
+                  />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../src/script.js"></script>
+  </body>
+</html>
+
+<!-- cd public
+http-server -->
