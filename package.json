@@ -4,13 +4,11 @@
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css",
     "watch:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-    "serve": "http-server .",
     "build": "npm run build:css"
   },
   "devDependencies": {
     "tailwindcss": "^3.0.0",
     "postcss": "^8.3.0",
-    "autoprefixer": "^10.2.6",
-    "http-server": "^14.0.0"
+    "autoprefixer": "^10.2.6"
   }
 }
