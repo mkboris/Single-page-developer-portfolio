@@ -77,5 +77,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-
-// pat2hpsKD21jbX5ha.4185a7144737e4570e8ac1fa5b7a18fc7b0816d8279088aec15b5a598cd51810
