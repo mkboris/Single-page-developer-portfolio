@@ -22,6 +22,7 @@
     />
     <link href="/output.css" rel="stylesheet" />
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Frontend Mentor | Single-page developer portfolio</title>
   </head>
   <body class="bg-dark min-h-screen overflow-x-hidden">
@@ -555,15 +556,15 @@
           <form
             action="#"
             class="flex flex-col gap-8 w-full max-w-[27.8125rem]"
-            id="basic_form"
+            id="form"
             autocomplete="off"
             novalidate="novalidate"
           >
             <div class="control-wrapper">
-              <label class="input-label sr-only" for="basic_name"> Name </label>
+              <label class="input-label sr-only" for="name"> Name </label>
               <div class="input-wrapper">
                 <input
-                  id="basic_name"
+                  id="name"
                   class="input bg-darkGrey px-6 pb-4 placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green w-full"
                   autocomplete="on"
                   type="text"
@@ -572,12 +573,10 @@
               </div>
             </div>
             <div class="control-wrapper">
-              <label class="input-label sr-only" for="basic_email">
-                Email
-              </label>
+              <label class="input-label sr-only" for="email"> Email </label>
               <div class="input-wrapper">
                 <input
-                  id="basic_email"
+                  id="email"
                   class="input bg-darkGrey px-6 pb-4 placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green w-full"
                   autocomplete="on"
                   type="text"
@@ -587,12 +586,10 @@
             </div>
 
             <div class="control-wrapper">
-              <label class="input-label sr-only" for="basic_message"
-                >Message</label
-              >
+              <label class="input-label sr-only" for="message">Message</label>
               <div class="input-wrapper">
                 <textarea
-                  id="basic_message"
+                  id="message"
                   class="input textarea bg-darkGrey px-6 pb-4 resize-none placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-b-[1px] focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green min-h-[6.6875rem] w-full"
                   placeholder="Message"
                 ></textarea>
