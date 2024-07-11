@@ -6,13 +6,10 @@
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+- [My process](#my-process)
   - [Built with](#built-with)
-<<<<<<< HEAD
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-=======
->>>>>>> 88ae2b88da22334065fdc80d0fc731e2816ed4cd
 - [Author](#author)
 
 ## Overview
@@ -38,6 +35,8 @@ Users should be able to:
 - [Solution](https://github.com/mkboris/Single-page-developer-portfolio)
 - [Live Site](https://single-page-developer-portfolio-five.vercel.app/)
 
+## My process
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -46,6 +45,10 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - Tailwind CSS
+
+### What I learned
+
+### Continued development
 
 ## Author
 
