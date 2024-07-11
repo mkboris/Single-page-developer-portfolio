@@ -1395,6 +1395,10 @@ h3 {
     margin-bottom: 2.25rem;
   }
 
+  .lg\:mb-\[1\.5rem\] {
+    margin-bottom: 1.5rem;
+  }
+
   .lg\:mb-\[4\.5rem\] {
     margin-bottom: 4.5rem;
   }
@@ -1407,68 +1411,12 @@ h3 {
     margin-bottom: 8.75rem;
   }
 
-  .lg\:mb-\[8rem\] {
-    margin-bottom: 8rem;
-  }
-
   .lg\:mt-10 {
     margin-top: 2.5rem;
   }
 
   .lg\:mt-\[1\.875rem\] {
     margin-top: 1.875rem;
-  }
-
-  .lg\:mt-\[18rem\] {
-    margin-top: 18rem;
-  }
-
-  .lg\:mb-\[8\`rem\] {
-    margin-bottom: 8`rem;
-  }
-
-  .lg\:mb-\[1\.5rem\] {
-    margin-bottom: 1.5rem;
-  }
-
-  .lg\:mt-\[12rem\] {
-    margin-top: 12rem;
-  }
-
-  .lg\:mt-\[11rem\] {
-    margin-top: 11rem;
-  }
-
-  .lg\:mb-\[1rem\] {
-    margin-bottom: 1rem;
-  }
-
-  .lg\:mb-\[2rem\] {
-    margin-bottom: 2rem;
-  }
-
-  .lg\:mb-\[1\.8rem\] {
-    margin-bottom: 1.8rem;
-  }
-
-  .lg\:mt-\[12\.5rem\] {
-    margin-top: 12.5rem;
-  }
-
-  .lg\:mt-\[12\.8rem\] {
-    margin-top: 12.8rem;
-  }
-
-  .lg\:mt-\[13rem\] {
-    margin-top: 13rem;
-  }
-
-  .lg\:mt-\[13\.3rem\] {
-    margin-top: 13.3rem;
-  }
-
-  .lg\:mt-\[13\.5rem\] {
-    margin-top: 13.5rem;
   }
 
   .lg\:mt-\[13\.6rem\] {

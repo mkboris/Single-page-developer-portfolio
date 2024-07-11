@@ -1,7 +1,6 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded", function () {
-  //   const validate = new window.JustValidate('#form');
   const validator = new window.JustValidate("#basic_form");
 
   validator
@@ -26,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
         rule: "email",
       },
     ])
-
     .addField("#basic_message", [
       {
         rule: "required",
@@ -35,7 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
         rule: "minLength",
         value: 5,
       },
-    ]);
-
-  location.reload();
+    ])
+    .onSuccess(function (event) {
+      event.preventDefault();
+      location.reload();
+    });
 });
