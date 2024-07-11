@@ -1,5 +1,5 @@
 "use strict";
 
-alert("bingo");
+alert("why tf u not workin");
 
-console.log("hello");
+console.log("alakuii");
