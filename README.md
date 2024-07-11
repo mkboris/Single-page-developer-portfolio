@@ -7,8 +7,6 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -43,10 +41,6 @@ Users should be able to:
 - Mobile-first workflow
 - Tailwind CSS
 - JustValidate
-
-### What I learned
-
-### Continued development
 
 ## Author
 
