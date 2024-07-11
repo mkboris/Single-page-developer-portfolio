@@ -21,6 +21,7 @@
       rel="stylesheet"
     />
     <link href="/output.css" rel="stylesheet" />
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
     <title>Frontend Mentor | Single-page developer portfolio</title>
   </head>
   <body class="bg-dark min-h-screen overflow-x-hidden">
@@ -111,7 +112,7 @@
         </picture>
 
         <div
-          class="text-center md:text-start md:order-[-1] md:text-balance lg:max-w-[44.125rem] z-20 md:pt-[5.625rem] lg:pt-[7.9375rem]"
+          class="text-center md:text-start md:order-[-1] md:text-balance lg:max-w-[44.125rem] z-20 md:pt-[5.625rem] lg:pt-[7.9375rem] lg:mb-[1.5rem]"
         >
           <h1
             class="font-grotesk font-bold text-white text-[2.5rem] md:text-7xl lg:text-[5.5rem] leading-[100%] tracking-[-1.13636px] md:tracking-[-2.04545px] lg:tracking-[-2.5px] mb-6 md:mb-14 lg:mb-9"
@@ -145,7 +146,7 @@
 
       <div class="px-4 md:px-[1.875rem] mb-10 md:mb-[3.25rem] lg:mb-[4.5rem]">
         <hr
-          class="mt-20 md:mt-[13.75rem] lg:mt-[18.75rem] max-w-mdWidth mx-auto bg-white"
+          class="mt-20 md:mt-[13.75rem] lg:mt-[13.6rem] max-w-mdWidth mx-auto bg-white"
         />
       </div>
 
@@ -552,40 +553,60 @@
           </div>
 
           <form
-            id="form"
-            class="flex flex-col gap-8 w-full max-w-[27.8125rem]"
             action="#"
+            class="flex flex-col gap-8 w-full max-w-[27.8125rem]"
+            id="basic_form"
+            autocomplete="off"
+            novalidate="novalidate"
           >
-            <input
-              class="bg-darkGrey px-6 pb-4 placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green"
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              required
-            />
-            <input
-              class="bg-darkGrey px-6 pb-4 placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
+            <div class="control-wrapper">
+              <label class="input-label sr-only" for="basic_name"> Name </label>
+              <div class="input-wrapper">
+                <input
+                  id="basic_name"
+                  class="input bg-darkGrey px-6 pb-4 placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green w-full"
+                  autocomplete="on"
+                  type="text"
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+            <div class="control-wrapper">
+              <label class="input-label sr-only" for="basic_email">
+                Email
+              </label>
+              <div class="input-wrapper">
+                <input
+                  id="basic_email"
+                  class="input bg-darkGrey px-6 pb-4 placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green w-full"
+                  autocomplete="on"
+                  type="text"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
 
-            <textarea
-              class="bg-darkGrey px-6 pb-4 resize-none placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-b-[1px] focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green min-h-[6.6875rem]"
-              name="message"
-              id="message"
-              placeholder="Message"
-              required
-            ></textarea>
-            <button
-              class="font-grotesk font-bold text-base tracking-[2.28571px] text-white uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all self-end"
-              type="submit"
-            >
-              Send Message
-            </button>
+            <div class="control-wrapper">
+              <label class="input-label sr-only" for="basic_message"
+                >Message</label
+              >
+              <div class="input-wrapper">
+                <textarea
+                  id="basic_message"
+                  class="input textarea bg-darkGrey px-6 pb-4 resize-none placeholder:text-base placeholder:font-grotesk placeholder:font-medium placeholder:text-white placeholder:mix-blend-normal placeholder:opacity-50 placeholder:tracking-[-0.222222px] text-white uppercase border-b-[1px] border-b-white focus-visible:outline-none focus-visible:border-b-[1px] focus-visible:border-solid focus-visible:border-b-green focus:invalid:border-b-[1px] focus:invalid:border-solid focus:invalid:border-red-600 focus:valid:border-b-green min-h-[6.6875rem] w-full"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="control-wrapper self-end">
+              <button
+                type="submit"
+                class="button font-grotesk font-bold text-base tracking-[2.28571px] text-white uppercase underline underline-offset-[0.625rem] underline-sm hover:text-green transition-all self-end"
+              >
+                Send Message
+              </button>
+            </div>
           </form>
         </div>
 
