@@ -6,11 +6,13 @@
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
+<<<<<<< HEAD
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+=======
+>>>>>>> 88ae2b88da22334065fdc80d0fc731e2816ed4cd
 - [Author](#author)
 
 ## Overview
@@ -33,10 +35,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution]()
-- [Live Site]()
-
-## My process
+- [Solution](https://github.com/mkboris/Single-page-developer-portfolio)
+- [Live Site](https://single-page-developer-portfolio-five.vercel.app/)
 
 ### Built with
 
@@ -46,24 +46,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - Tailwind CSS
-
-### What I learned
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
 
 ## Author
 
