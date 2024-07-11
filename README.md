@@ -6,7 +6,6 @@
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -35,8 +34,6 @@ Users should be able to:
 - [Solution](https://github.com/mkboris/Single-page-developer-portfolio)
 - [Live Site](https://single-page-developer-portfolio-rosy.vercel.app/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -45,6 +42,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - Tailwind CSS
+- JustValidate
 
 ### What I learned
 
