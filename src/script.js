@@ -35,21 +35,17 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     ])
     .onSuccess(function (event) {
-      // event.preventDefault();
+      event.preventDefault();
 
-      formSubmit();
+      formSubmit(event.target);
 
-      // alert("Thanks for your message! I will get back to you soon.");
-      // location.reload();
+      alert("Thanks for your message! I will get back to you soon.");
+      location.reload();
     });
 });
 
-// const form = document.getElementById("form");
-// form.addEventListener("submit", formSubmit);
-
-function formSubmit(e) {
-  // e.preventDefault();
-  const formData = new FormData(e.target);
+function formSubmit(form) {
+  const formData = new FormData(form);
 
   fetch("https://getform.io/f/bnlelkmb", {
     method: "POST",
