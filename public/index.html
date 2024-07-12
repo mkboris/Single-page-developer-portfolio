@@ -581,12 +581,13 @@
           </div>
 
           <form
-            action="https://getform.io/f/bnlelkmb"
-            method="post"
+            method="POST"
+            accept-charset="UTF-8"
             class="flex flex-col gap-8 w-full max-w-[27.8125rem]"
             id="form"
             autocomplete="off"
             novalidate="novalidate"
+            enctype="multipart/form-data"
           >
             <div class="control-wrapper">
               <label class="input-label sr-only" for="name"> Name </label>
@@ -629,6 +630,13 @@
                 ></textarea>
               </div>
             </div>
+
+            <!-- add hidden Honeypot input to prevent spams -->
+            <input
+              type="hidden"
+              name="_gotcha"
+              style="display: none !important"
+            />
 
             <div class="control-wrapper self-end">
               <button
