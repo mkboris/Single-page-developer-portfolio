@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     ])
     .onSuccess(function (event) {
-      event.preventDefault();
+      // event.preventDefault();
 
       formSubmit();
 
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // form.addEventListener("submit", formSubmit);
 
 function formSubmit(e) {
-  e.preventDefault();
+  // e.preventDefault();
   const formData = new FormData(e.target);
 
   fetch("https://getform.io/f/bnlelkmb", {
