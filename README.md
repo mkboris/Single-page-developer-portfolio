@@ -7,6 +7,7 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -34,13 +35,17 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
 - Tailwind CSS
 - JustValidate
+- Getform
+- Zapier
+- Airtable
+
+### What I learned
+
+The design was fairly straightforward and didn't require much thought. I had a little struggle placing the rings background pattern not knowing the best approach on where to place it precisely either on the body or the within specific element container and preventing it shifting the whole layout and causing unwanted overflows. I manage to place them somehow wrestling a lot with figures. I'm still seeking a more effective approach to handle this moving forward.
+
+So far, when building forms, I haven't typically received and stored the submitted data. With this project I used Getform to handle form submissions, integrating it with Zapier to automatically send the data to my Airtable base and table successfully whenever the form is submitted. Additionally, I used a library for form validation this time, and it worked really well.
 
 ## Author
 
